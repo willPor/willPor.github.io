@@ -1,0 +1,93 @@
+/* Pagina com os comandos css */
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado links */
+    transition: color 0.3s; /* Adiciona uma transicao de cor ao passar o mouse */
+}
+
+nav ul li a:hover {
+    color: red; /* Muda a cor do texto para vermelho ao passar o mouse */
+}
+
+body {
+    margin: 0; /* Remove a margem da pagina */
+}
+
+
+
+
+/* Css no sobre */
+#sobre {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#sobre img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#sobre h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#sobre p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+
+/* Css na formacao */
+#formacao {
+    background-color: black;
+    color: white;
+    height: 100vh; /* Define o tamanho */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteudo */
+    align-items: center; /* Centraliza o conteudo horizontalmente */
+}
+
+#formacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+#formacao li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#formacao p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: italic; /* Aplica estilo italico no texto */
+}
+
+#formaca img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Cor e elementos do botao voltar */
+
+#botaoVoltar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#botaoVoltar:hover {
+    background-color: #0056b3;
+}
